@@ -55,6 +55,12 @@ header {
 .baixar-app {
     font-weight: bold;
     text-align: center;
+    font-size; 100px;
+}
+.footer {
+    text-align: center;
+    background-color: #00E5FF;
+    padding: 30px;
 }
 @media (max-width: 500px) {
     .header-conteudo {
