@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: "Roboto"
+}
+header {
+    background-image: url(images/fundo-abstrato1.png);
+    padding: 20px 50px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top a {
+    color: #00E5FF;
+}
+.botao-solido-ciano {
+    background-color: #00E5FF;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+.header-top .botao-solido-ciano {
+    margin-left: 50px;
+}
+.header-conteudo {
+    text-align: left;
+    text-transform: none;
+    color: white;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.header-conteudo h1 {
+    font-weight: bold;
+    color: #00E5FF;
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-weight: bold;
+}
+.header-conteudo h3 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.header-conteudo h2 {
+    color: white;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+@media (max-width: 500px) {
+    .header-conteudo {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+    .header-top {
+        flex-direction: column;
+    }
+    .header-top nav {
+        order: 1;
+        margin-bottom: 80px;     
+    }
+}
