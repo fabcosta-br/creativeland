@@ -4,7 +4,7 @@ body {
 }
 header {
     background-image: url(images/fundo-abstrato1.png);
-    padding: 20px 50px;
+    padding: 20px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -51,6 +51,10 @@ header {
     margin-top: 100px;
     font-size: 50px;
     font-weight: bold;
+}
+.baixar-app {
+    font-weight: bold;
+    text-align: center;
 }
 @media (max-width: 500px) {
     .header-conteudo {
